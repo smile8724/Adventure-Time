@@ -1,0 +1,57 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+}
+
+body {
+  height: 1000px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 550;
+}
+
+header.jumbotron {
+  margin-bottom: 0px;
+  text-align: center;
+  background-image: url(https://scontent.fkhh1-1.fna.fbcdn.net/v/t31.0-8/12029575_10153709270163383_5900552071754532790_o.jpg?_nc_cat=106&_nc_ht=scontent.fkhh1-1.fna&oh=713c468678880151151b75457fcd0c9f&oe=5CC6221F);
+  background-size: cover;
+  background-attachment: fixed;
+}
+header.jumbotron .container {
+  color: #0f5131;
+  padding: 100px 0px;
+}
+header.jumbotron hr {
+  max-width: 300px;
+  border: solid 2px #228e58;
+}
+header.jumbotron h4 {
+  color: #0f5131;
+}
+
+section {
+  padding: 50px 0px;
+}
+
+section#section_ask .col-sm-5.img {
+  background-image: url(https://t2.genius.com/unsafe/275x0/https%3A%2F%2Fimages.genius.com%2F156611004fb7b2a51800a353125968f1.1000x1000x1.jpg);
+  height: 350px;
+  background-size: cover;
+  mix-blend-mode: overlay;
+}
+section#section_ask h2 {
+  margin-top: 130px;
+  padding: 0px 20px;
+}
+
+section#section_about {
+  background-color: #f2f9f6;
+}
+section#section_about img {
+  width: 100%;
+}
+section#section_about .img_wrap {
+  height: 150px;
+  overflow: hidden;
+}
